@@ -463,3 +463,8 @@ th {
 .people .col-md-12 td {
   padding: 2em;
 }
+
+.infra .people .col-md-6,
+.infra .people .col-md-4 {
+  padding: 2em;
+}
