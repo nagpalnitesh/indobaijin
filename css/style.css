@@ -12,97 +12,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* 
-.overlay {
-  background: url("../assets/technical\ 1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-  overflow: hidden;
-  right: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-}
-
-.overlay1 {
-  background: url("../assets/OIL.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-  overflow: hidden;
-  right: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-}
-
-.overlay2 {
-  background: url("../assets/technical\ 1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-  overflow: hidden;
-  right: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-}
-
-.overlay3 {
-  background: url("../assets/OIL.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-  overflow: hidden;
-  right: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-}
-
-.overlay4 {
-  background: url("../assets/technical\ 1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-  overflow: hidden;
-  right: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-}
-
-.overlay5 {
-  background: url("../assets/OIL.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-  overflow: hidden;
-  right: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-}
-
-.overlay6 {
-  background: url("../assets/technical\ 1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-  overflow: hidden;
-  right: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-} */
 
 h1,
 h2,
@@ -300,14 +209,16 @@ th {
   margin-top: 10em;
 }
 
-.reach .col-md-4 .box {
+.reach .col-md-4 .box,
+.promain .protxtimg .col-md-4 .box {
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 2em;
 }
 
-.reach .col-md-4 .box .img img {
+.reach .col-md-4 .box .img img,
+.promain .protxtimg .col-md-4 .box .img img {
   width: 80%;
   height: 14em;
 }
@@ -423,7 +334,8 @@ th {
   display: inline-block;
 }
 
-.reach .protxtimg {
+.reach .protxtimg,
+.promain .protxtimg {
   margin-top: 5em;
 }
 
