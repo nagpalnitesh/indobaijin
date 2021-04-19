@@ -499,7 +499,8 @@ th {
     padding-bottom: 0.5em;
   }
 
-  .about .people .col-md-4 img {
+  .about .people .col-md-4 img,
+  .infra .people .col-md-4 img {
     width: 100%;
     margin-bottom: 1em;
   }
@@ -507,6 +508,11 @@ th {
     width: fit-content;
     margin-top: -6em;
     margin-left: 3.5em;
+  }
+  .infra .col-md-2 img {
+    width: 80%;
+    margin-top: -6em;
+    margin-left: 2.5em !important;
   }
   .vm .col-md-2 img {
     width: 100% !important;
@@ -562,6 +568,215 @@ th {
     font-weight: bold;
     font-size: 1.2em;
     text-shadow: 0.1em 0.1em 0.05em rgba(128, 128, 128, 0.404);
+  }
+  .mapimg {
+    width: 130%;
+    margin-left: 2% !important;
+  }
+  .map1 {
+    width: 100% !important;
+  }
+  .slider .col-md-4 img {
+    width: 100%;
+    height: 35vh;
+  }
+  .slider2 .col-md-4 img {
+    width: 100%;
+  }
+  .people .col-md-12 h1 {
+    font-size: 1.5em;
+  }
+  .people .col-md-12 table {
+    margin-bottom: 2em;
+    text-align: left;
+    left: 0%;
+    top: 0%;
+    transform: translate(0%, 0%);
+  }
+
+  .people .col-md-12 td {
+    padding: 1em;
+    font-size: 1.1em;
+  }
+  .infra .people .box img {
+    width: fit-content !important;
+  }
+  /* Change the look of Labels */
+  .formtxt h2 {
+    text-transform: capitalize !important;
+    padding-top: 0em;
+    margin-left: 15%;
+  }
+
+  .divtext {
+    width: 100% !important;
+    transform: translate(-10%, 0%);
+  }
+
+  .divtext .col-md-6 {
+    margin-top: 1em !important;
+    padding-top: 2em;
+    margin-bottom: 1.5em;
+  }
+
+  .ctext p {
+    text-align: center;
+    margin-top: 1em;
+    padding-left: 3em;
+    padding-right: 0em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: 500;
+  }
+
+  .ctext h2 {
+    text-align: center;
+    /* font-size: 1.5em; */
+    font-weight: 400;
+    width: 100%;
+  }
+
+  label {
+    display: block;
+    margin-top: 1em;
+    letter-spacing: 0.1em;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+  /* 
+.formtxt {
+  background-color: cornflowerblue;
+} */
+
+  /* Center the form  */
+  .formtxt form {
+    width: 100%;
+    margin-left: 15%;
+  }
+
+  /* textbox and textarea styles */
+  .formtxt input,
+  .formtxt1 input,
+  .formtxt textarea {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 1em;
+    color: #000e23;
+    border-radius: 0.5em;
+    border: 0.1em solid #000e23;
+    background-color: white;
+  }
+
+  .formtxt1 textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-top: 1em;
+    color: #000e23;
+    border-radius: 0.5em;
+    border: 0.1em solid #000e23;
+    background-color: white;
+  }
+  /* Border style on focus */
+  input:focus,
+  textarea:focus {
+    border: 0.2em solid #000e23;
+    outline: none;
+  }
+
+  /* submit button styles */
+  #submit {
+    width: fit-content;
+    height: 50px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    color: #000e23;
+    text-align: center;
+    margin-left: 30%;
+    font-weight: 600;
+  }
+
+  /* Change button looks on hover */
+  #submit:hover {
+    background-color: #000e23;
+    color: antiquewhite;
+  }
+
+  .career .ctext img {
+    width: 40%;
+    left: 0%;
+    top: 0%;
+    animation: imgani 10s ease-in-out infinite;
+    height: 30vh;
+  }
+
+  @keyframes imgani {
+    0% {
+      left: 0%;
+      top: 0%;
+      transform: translate(100%, 5%);
+    }
+    50% {
+      left: 0%;
+      top: 0%;
+      transform: translate(100%, 0%);
+    }
+    100% {
+      left: 0%;
+      top: 0%;
+      transform: translate(100%, 5%);
+    }
+  }
+
+  .formtxt img {
+    width: 100%;
+    margin-bottom: 3em;
+  }
+
+  .career .col-md-12 img {
+    width: 100%;
+    height: 35vh;
+  }
+  .career .col-md-12 img {
+    margin-top: 1.2em;
+  }
+  .procntnt ul {
+    margin: 1em;
+  }
+
+  .procntnt li {
+    margin-top: 1em;
+    margin-left: -1em;
+  }
+
+  .procntnt {
+    margin-bottom: 5em;
+  }
+
+  .procntnt .col-md-2 img {
+    width: 100%;
+    margin-top: 0em;
+    margin-left: 0em;
+  }
+  .param {
+    transform: translate(0%, 0%);
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .param,
+  .param td,
+  .param th {
+    padding: 1em;
+    width: 50%;
+  }
+  .param table {
+    width: 50%;
+    margin-left: -5%;
   }
 }
 
