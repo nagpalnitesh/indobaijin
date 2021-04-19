@@ -1166,13 +1166,9 @@ th {
 /* Medium devices (landscape tablets, 768px and up) */
 /* @media only screen and (min-width: 768px) {
 } */
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 769px) and (max-width: 992px) {
   body {
     overflow-x: hidden;
-  }
-  .navbar-brand img {
-    width: 50%;
-    margin-left: -5%;
   }
   .navbar-toggler {
     background-color: #000e23;
@@ -1183,17 +1179,34 @@ th {
     margin-left: -0.5em;
     margin-top: -1em;
   }
+
+  .menu {
+    margin-left: 1em !important;
+    margin-top: 5em !important;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 1em !important;
+  }
+
+  .menu li {
+    display: inline;
+    margin-left: 0em;
+    margin-right: 1em;
+    font-size: 0.7em;
+    letter-spacing: 0.05em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    font-weight: 600;
+    /* border: 0.1em solid blue;
+  border-radius: 0.2em; */
+  }
   .loader img {
     width: 25%;
-  }
-  .bvc {
-    display: none;
   }
   .banner {
     width: 110%;
     margin-left: -3%;
   }
-
   .banner img {
     width: 100%;
     height: 65vh;
@@ -1275,13 +1288,11 @@ th {
   }
   .about .col-md-2 img {
     width: fit-content;
-    margin-top: -6em;
-    margin-left: 3.5em;
+    margin-left: 0.5em;
   }
   .infra .col-md-2 img {
-    width: 80%;
-    margin-top: -6em;
-    margin-left: 2.5em !important;
+    width: 100% !important;
+    margin-left: 2em !important;
   }
   .vm .col-md-2 img {
     width: 100% !important;
@@ -1532,7 +1543,7 @@ th {
   }
   .param {
     transform: translate(0%, 0%);
-    width: 100%;
+    width: fit-content;
     margin-top: 2em;
     margin-bottom: 2em;
   }
@@ -1541,18 +1552,17 @@ th {
   .param td,
   .param th {
     padding: 1em;
-    width: 50%;
+    width: fit-content;
   }
   .param table {
-    width: 50%;
+    width: fit-content;
     margin-left: -5%;
   }
 }
-
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
 } */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 1018px) and (max-width: 1350px) {
   body {
     overflow-x: hidden;
   }
@@ -1949,7 +1959,7 @@ th {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {
 } */
-@media only screen and (min-width: 1356px) and (max-width: 1400px) {
+@media only screen and (min-width: 1356px) and (max-width: 1900px) {
   body {
     overflow-x: hidden;
   }
@@ -2048,7 +2058,7 @@ th {
   }
   .about .col-md-2 img {
     width: fit-content;
-    margin-top: -6em;
+    margin-top: 0em;
     margin-left: 3.5em;
   }
   .infra .col-md-2 img {
@@ -2314,10 +2324,10 @@ th {
   .param td,
   .param th {
     padding: 1em;
-    width: 50%;
+    width: fit-content;
   }
   .param table {
-    width: 50%;
+    width: 100%;
     margin-left: -5%;
   }
 }
