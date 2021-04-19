@@ -166,7 +166,8 @@ th {
 
 .qualpolicy h1,
 .qualpolicy1 h1,
-.people h1 {
+.people h1,
+.disclaim h1 {
   text-align: center;
   padding: 1em 0em 1em 0em;
 }
@@ -176,6 +177,15 @@ th {
 .qualpolicy p {
   text-align: justify;
   padding: 0em 1em 1em 1em;
+}
+
+.disclaim h4 {
+  text-align: justify;
+  padding: 0em 1em 1em 1em;
+}
+
+.disclaim h4:nth-child(5) {
+  margin-bottom: 3.5em;
 }
 
 .qualpolicy1 p {
