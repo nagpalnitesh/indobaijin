@@ -448,6 +448,74 @@ th {
     text-align: center;
     padding-left: 2.5em;
   }
+  .qualpolicy,
+  .qualpolicy1 {
+    /* background-color: aqua; */
+    width: 100%;
+    margin-left: 0%;
+    padding: 0em;
+  }
+
+  .qualpolicy h1,
+  .qualpolicy1 h1,
+  .people h1,
+  .disclaim h1 {
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+  }
+
+  .qualpolicy h4,
+  .qualpolicy h3,
+  .qualpolicy p {
+    text-align: justify;
+    padding: 0em 1em 1em 1em;
+  }
+  .qualpolicy h3 {
+    font-size: 1.1em;
+  }
+  .qualpolicy p {
+    font-size: 0.8em;
+  }
+
+  .disclaim h4 {
+    text-align: justify;
+    padding: 0em 1em 1em 1em;
+  }
+
+  .disclaim h4:nth-child(5) {
+    margin-bottom: 3.5em;
+  }
+
+  .qualpolicy1 p {
+    text-align: justify;
+    padding: 0em 1em 0.5em 1em;
+    font-size: 1em;
+  }
+
+  .qualpolicy ul li,
+  .qualpolicy1 ul li {
+    font-size: 1em;
+    padding-left: 0em;
+    padding-bottom: 0.5em;
+  }
+
+  .about .people .col-md-4 img {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .about .col-md-2 img {
+    width: fit-content;
+    margin-top: -6em;
+    margin-left: 3.5em;
+  }
+  .vm .col-md-2 img {
+    width: 100% !important;
+    margin-left: 0% !important;
+    margin-top: -5em;
+  }
+  .vm .col-md-2 {
+    margin-top: -5em;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
