@@ -530,7 +530,10 @@ th {
   }
 
   .bodbx {
-    height: fit-content;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    width: 100% !important;
   }
 
   .bodbx .img {
